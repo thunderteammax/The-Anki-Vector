@@ -78,7 +78,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞", url="https://telegra.ph/Thunder-GoHelp-11-19"),
-        InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="help_"),
+        InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="helpmenu_"),
     ],
     [
         InlineKeyboardButton(
