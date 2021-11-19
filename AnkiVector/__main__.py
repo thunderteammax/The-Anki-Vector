@@ -65,24 +65,24 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = f"""
 *Hello There, I'm Thunder GoHelp
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
-hit /help to Find my list of available commands  
+I'm a Powerfull group manager bot With Cool Modules and features
+Use /help to Find my list of available commands  
 Bot Version - V2.6
 Status - Active*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="𝔘𝔭𝔡𝔞𝔱𝔢𝔰 ℭ𝔥𝔞𝔫𝔫𝔢𝔩", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="𝔖𝔲𝔭𝔭𝔬𝔯𝔱 𝔊𝔯𝔬𝔲𝔭", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/ankivectorUpdates"),
+        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/AnkiSupport_Official"),
     ],
     [
-        InlineKeyboardButton(text="Sour", url="https://telegra.ph/Thunder-GoHelp-11-19"),
-        InlineKeyboardButton(text="ℌ𝔢𝔩𝔭 & ℭ𝔬𝔪𝔪𝔞𝔫𝔡𝔰", callback_data="helpmenu_"),
+        InlineKeyboardButton(text="𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞", url="https://telegra.ph/Thunder-GoHelp-11-19"),
+        InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝔄𝔡𝔡 𝔊𝔬ℌ𝔢𝔩𝔭 𝔗𝔬 𝔜𝔬𝔲𝔯 𝔊𝔯𝔬𝔲𝔭 ➕", url="t.me/{}?startgroup=true"
+            text="➕ 𝐀𝐝𝐝 𝐆𝐨𝐇𝐞𝐥𝐩 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url="t.me/testgobotprobot?startgroup=true"
         ),
     ],
 ]
